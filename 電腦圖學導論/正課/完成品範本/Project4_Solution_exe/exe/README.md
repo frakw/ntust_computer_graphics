@@ -1,0 +1,1 @@
+該exe缺少opencv_world341d.dll，因為大於100MB所以刪了，網路上可能找的到

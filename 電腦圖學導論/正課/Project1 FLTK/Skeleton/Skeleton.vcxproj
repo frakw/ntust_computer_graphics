@@ -87,12 +87,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\lib\FLTK1.3.5\source;C:\lib\FLTK1.3.5\build;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\lib\FLTK1.3.5\build\lib\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath);include\</IncludePath>
+    <LibraryPath>$(LibraryPath);lib\Debug</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\lib\FLTK1.3.5\source;C:\lib\FLTK1.3.5\build;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\lib\FLTK1.3.5\build\lib\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath);include\</IncludePath>
+    <LibraryPath>$(LibraryPath);lib\Release\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);lib\Release\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);;include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);lib\Debug</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

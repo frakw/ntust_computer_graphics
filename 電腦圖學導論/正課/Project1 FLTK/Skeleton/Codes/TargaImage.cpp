@@ -52,6 +52,7 @@ double Binomial(int n, int s)
         res = (n - i + 1) * res / i ;
 
     return res;
+
 }// Binomial
 
 void TargaImage::filter_base(double* filter_in,int filter_width,int filter_height,bool alpha_open) {
