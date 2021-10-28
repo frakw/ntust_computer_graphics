@@ -781,7 +781,9 @@ void Maze::draw_cell(Cell* now_cell, LineSeg L, LineSeg R) {
 		else {
 			//edge_line => 切完後的牆
 			if (now_cell->edges[i]->Neighbor(now_cell) == NULL) continue;
-			float Lx, Rx, Ly, Ry;
+			static float pre_Lx = 0.0f, pre_Rx = 0.0f, pre_Ly = 0.0f, pre_Ry = 0.0f; //因下面的if else if 可能都不會進去，所以要讓之前的值維持，才不會沒初始化變數就呼叫function
+			float Lx = pre_Lx, Rx = pre_Rx, Ly = pre_Ly, Ry = pre_Ry;
+
 			LineSeg midline(0.0f, 0.0f, (edge_line.start[0] + edge_line.end[0]) * 0.5, (edge_line.start[1] + edge_line.end[1]) * 0.5);
 			if (midline.Point_Side(edge_line.start[0], edge_line.start[1]) == Edge::LEFT && midline.Point_Side(edge_line.end[0], edge_line.end[1]) == Edge::RIGHT) {
 				Lx = edge_line.start[0];
@@ -795,6 +797,10 @@ void Maze::draw_cell(Cell* now_cell, LineSeg L, LineSeg R) {
 				Rx = edge_line.start[0];
 				Ry = edge_line.start[1];
 			}
+			pre_Lx = Lx;
+			pre_Rx = Rx;
+			pre_Ly = Ly;
+			pre_Ry = Ry;
 			LineSeg newL(Lx, Ly, Lx / Ly * -my_far, -my_far);
 			LineSeg newR(Rx / Ry * -my_far, -my_far, Rx, Ry);
 			if (!now_cell->edges[i]->Neighbor(now_cell)->foot_print && fabs((Lx / Ly * -my_far) - (Rx / Ry * -my_far)) > 0.00001) {

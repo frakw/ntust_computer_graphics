@@ -65,16 +65,16 @@
     <ClInclude Include="Codes\MazeWindow.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="all_glm.h">
+    <ClInclude Include="Codes\all_cpp_std.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="all_fl_gl.h">
+    <ClInclude Include="Codes\all_fl_gl.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="all_cpp_std.h">
+    <ClInclude Include="Codes\all_glm.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="frustum.h">
+    <ClInclude Include="Codes\frustum.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

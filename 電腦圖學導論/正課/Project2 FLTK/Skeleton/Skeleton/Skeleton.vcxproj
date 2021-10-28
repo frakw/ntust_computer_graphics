@@ -29,18 +29,18 @@
     <ClCompile Include="Codes\Vertex.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="all_cpp_std.h" />
-    <ClInclude Include="all_fl_gl.h" />
-    <ClInclude Include="all_glm.h" />
+    <ClInclude Include="Codes\all_cpp_std.h" />
+    <ClInclude Include="Codes\all_fl_gl.h" />
+    <ClInclude Include="Codes\all_glm.h" />
     <ClInclude Include="Codes\Cell.h" />
     <ClInclude Include="Codes\Edge.h" />
+    <ClInclude Include="Codes\frustum.h" />
     <ClInclude Include="Codes\LineSeg.h" />
     <ClInclude Include="Codes\MapWidget.h" />
     <ClInclude Include="Codes\Maze.h" />
     <ClInclude Include="Codes\MazeWindow.h" />
     <ClInclude Include="Codes\Point.h" />
     <ClInclude Include="Codes\Vertex.h" />
-    <ClInclude Include="frustum.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -94,12 +94,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\lib\MazeVisibility-master\source\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\lib\MazeVisibility-master\build\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
+    <LibraryPath>lib\;lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\lib\MazeVisibility-master\source\include;C:\Users\t4w32\source\repos\frakw\NTUST_COMPUTER_GRAPHICS\電腦圖學導論\正課\Project2 FLTK\Skeleton\Skeleton;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\lib\MazeVisibility-master\source\lib\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
+    <LibraryPath>lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -122,7 +126,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>fltk_formsd.lib;fltk_gld.lib;fltk_imagesd.lib;fltk_jpegd.lib;fltk_pngd.lib;fltk_zd.lib;fltkd.lib;%(AdditionalDependencies);OpenGL32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);fltk_formsd.lib;fltk_gld.lib;fltk_imagesd.lib;fltk_jpegd.lib;fltk_pngd.lib;fltk_zd.lib;fltkd.lib;OpenGL32.lib;glu32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -155,7 +159,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>fltk.lib;fltk_gl.lib;fltk_forms.lib;fltk_images.lib;fltk_jpeg.lib;fltk_png.lib;fltk_z.lib;%(AdditionalDependencies);OpenGL32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);fltk.lib;fltk_gl.lib;fltk_forms.lib;fltk_images.lib;fltk_jpeg.lib;fltk_png.lib;fltk_z.lib;OpenGL32.lib;glu32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

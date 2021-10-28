@@ -61,7 +61,7 @@ void MazeWindow::
 draw(void)
 //=========================================================================
 {
-	float   focal_length;
+	float   focal_length = 0.0f;
 
 	if (!valid()) {
 		// The OpenGL context may have been changed
