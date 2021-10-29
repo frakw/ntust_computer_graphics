@@ -1,0 +1,17 @@
+material SkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture Sunny2.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}

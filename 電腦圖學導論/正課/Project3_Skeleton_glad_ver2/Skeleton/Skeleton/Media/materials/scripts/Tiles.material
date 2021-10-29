@@ -1,0 +1,34 @@
+material Tiles
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			
+			texture_unit
+			{
+				texture Tile.jpg
+				scale 1 1
+			}
+		}
+	}
+}
+
+material Grass
+{
+technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 0.1 0.1 0.1
+			
+			texture_unit
+			{
+				texture GreenSkin.jpg
+			}
+		}
+	}
+}

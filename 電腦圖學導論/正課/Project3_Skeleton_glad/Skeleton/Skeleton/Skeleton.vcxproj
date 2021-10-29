@@ -101,12 +101,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>include\;include\glad\;include\glm\;$(IncludePath)</IncludePath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
     <LibraryPath>lib\Debug\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>lib\Release\;$(LibraryPath)</LibraryPath>
-    <IncludePath>include\;include\glad\;include\glm\;$(IncludePath)</IncludePath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -129,7 +129,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>fltkd.lib;fltk_gld.lib;fltk_formsd.lib;fltk_imagesd.lib;fltk_jpegd.lib;fltk_pngd.lib;fltk_zd.lib;%(AdditionalDependencies);OpenGL32.lib;glu32.lib;assimp-vc142-mt.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);fltkd.lib;fltk_gld.lib;fltk_formsd.lib;fltk_imagesd.lib;fltk_jpegd.lib;fltk_pngd.lib;fltk_zd.lib;OpenGL32.lib;glu32.lib;assimp-vc142-mt.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -161,7 +161,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>fltk.lib;fltk_gl.lib;fltk_forms.lib;fltk_images.lib;fltk_jpeg.lib;fltk_png.lib;fltk_z.lib;%(AdditionalDependencies);OpenGL32.lib;glu32.lib;assimp-vc142-mt.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);fltk.lib;fltk_gl.lib;fltk_forms.lib;fltk_images.lib;fltk_jpeg.lib;fltk_png.lib;fltk_z.lib;OpenGL32.lib;glu32.lib;assimp-vc142-mt.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

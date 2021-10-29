@@ -1,0 +1,694 @@
+material building
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.027451 0.129412 0.541176 1
+			diffuse 0.027451 0.129412 0.541176 1
+			specular 0 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material roof
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.278431 0.278431 0.278431 1
+			diffuse 0.278431 0.278431 0.278431 1
+			specular 0 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.00784314 0.0196078 0.0156863 1
+			diffuse 0.00784314 0.0196078 0.0156863 1
+			specular 0.00784314 0.0196078 0.0156863 1 20
+		}
+
+	}
+
+}
+
+
+
+material obramwhit
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material obramwhit
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material obramwhitporecze
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.776471 0.0705882 0.00392157 1
+			diffuse 0.776471 0.0705882 0.00392157 1
+			specular 0.0352941 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material obramwhitporecze
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.776471 0.0705882 0.00392157 1
+			diffuse 0.776471 0.0705882 0.00392157 1
+			specular 0.0352941 0 0 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material rura
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.827451 0.85098 0.984314 1
+			diffuse 0.827451 0.85098 0.984314 1
+			specular 0.00392157 0.00392157 0.00392157 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.701961 0.811765 0.968628 1
+			diffuse 0.701961 0.811765 0.968628 1
+			specular 0.701961 0.811765 0.968628 1 20
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
+
+
+
+material slupy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0352941 0.0745098 0.427451 1
+			diffuse 0.0352941 0.0745098 0.427451 1
+			specular 0 0 0.00392157 1 40
+		}
+
+	}
+
+}
