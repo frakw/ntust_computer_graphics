@@ -115,12 +115,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>include\;include\glad\;include\glm\;$(IncludePath)</IncludePath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
     <LibraryPath>lib\Debug\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>lib\Release\;$(LibraryPath)</LibraryPath>
-    <IncludePath>include\;include\glad\;include\glm\;$(IncludePath)</IncludePath>
+    <IncludePath>include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
