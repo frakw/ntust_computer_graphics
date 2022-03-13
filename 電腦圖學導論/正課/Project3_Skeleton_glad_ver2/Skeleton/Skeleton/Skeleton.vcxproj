@@ -107,10 +107,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>include\;include\glad\;include\glm\;$(IncludePath)</IncludePath>
-    <LibraryPath>lib\Debug\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>lib\lib_debug\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>lib\Release\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>lib\lib_release\;$(LibraryPath)</LibraryPath>
     <IncludePath>include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
